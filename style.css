@@ -2,23 +2,16 @@
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  --font-family: var(--bs-font-sans-serif);
 }
 
 body {
   margin: 60px auto;
   max-width: 800px;
-  font-family: var(--bs-font-sans-serif);
-}
-
-.text-center {
-  text-align: center !important;
 }
 
 h1,
 h2,
 h3 {
-  text-align: center;
   margin: 0;
 }
 
@@ -42,6 +35,10 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+}
+
+.text-center {
+  text-align: center !important;
 }
 
 .navigation-links {
@@ -95,6 +92,7 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -108,17 +106,7 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
-.col-md-6 {
-  flex: 0 0 auto;
-  width: 50%;
-}
-.col-sm-4 {
-  flex: 0 0 auto;
-  width: 33.3333333333%;
-}
-.row {
-  display: flex;
-}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
