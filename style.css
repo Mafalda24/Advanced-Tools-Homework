@@ -2,11 +2,30 @@
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --font-family: var(--bs-font-sans-serif);
 }
 
 body {
   margin: 60px auto;
   max-width: 800px;
+  font-family: var(--bs-font-sans-serif);
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 31px;
+  }
+  p {
+    text-align: center;
+  }
+}
+
+.text-center {
+  text-align: center !important;
 }
 
 h1,
