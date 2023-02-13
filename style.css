@@ -11,19 +11,6 @@ body {
   font-family: var(--bs-font-sans-serif);
 }
 
-@media (max-width: 576px) {
-  h1 {
-    font-size: 48px;
-    line-height: 1.5;
-  }
-  h2 {
-    font-size: 31px;
-  }
-  p {
-    text-align: center;
-  }
-}
-
 .text-center {
   text-align: center !important;
 }
@@ -131,4 +118,22 @@ p {
 }
 .row {
   display: flex;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 31px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
 }
